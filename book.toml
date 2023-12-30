@@ -1,0 +1,18 @@
+[book]
+authors = ["AiRuiLiYaZhiXin"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Book"
+
+[output.html]
+default-theme = "light"
+mathjax-support = true
+
+[output.html.playground]
+editable = true
+copy-js = true
+line-numbers = true
+
+[output.html.code.hidelines]
+python = "~"
